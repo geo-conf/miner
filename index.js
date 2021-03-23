@@ -191,7 +191,6 @@ for (const year of years) {
   all.push(s);
 }
 
-// console.log(all);
 console.log(`Writing output to - > ${outputFile}`);
 fs.writeFile(outputFile, JSON.stringify(all), (err) => {
   if (err) return console.log(err);

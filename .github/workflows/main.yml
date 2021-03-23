@@ -1,4 +1,5 @@
 # This is a basic workflow to help you get started with Actions
+# Doc: https://github.com/dmnemec/copy_file_to_another_repo_action
 
 name: geo-CI
 
@@ -38,7 +39,7 @@ jobs:
       env:
         API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
       with:
-        source_file: 'json'
+        source_file: 'json/*'
         destination_repo: 'geo-conf/geo-dataset'
         destination_folder: 'raw'
         user_email: 'andrea@kaist.ac.kr'

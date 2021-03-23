@@ -21,7 +21,7 @@ jobs:
       run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
 
       # update the repository with the dataset
-    - name: Pushes to geo-dataset
+    - name: Pushes to geo-dataset 
       uses: dmnemec/copy_file_to_another_repo_action@main
       env:
         API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
@@ -29,6 +29,18 @@ jobs:
         source_file: 'out/dataset.json'
         destination_repo: 'geo-conf/geo-dataset'
         destination_folder: ''
+        user_email: 'andrea@kaist.ac.kr'
+        user_name: 'makinteract'
+        commit_message: ${{ steps.date.outputs.date }}
+
+    - name: Pushes the source files of the dataset
+      uses: dmnemec/copy_file_to_another_repo_action@main
+      env:
+        API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+      with:
+        source_file: 'json'
+        destination_repo: 'geo-conf/geo-dataset'
+        destination_folder: 'raw'
         user_email: 'andrea@kaist.ac.kr'
         user_name: 'makinteract'
         commit_message: ${{ steps.date.outputs.date }}

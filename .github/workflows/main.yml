@@ -21,6 +21,7 @@ jobs:
       id: date
       run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
 
+      # UIST DATASETS UPDATED
       # update the repository with the dataset
     - name: Pushes to geo-dataset 
       uses: dmnemec/copy_file_to_another_repo_action@main
@@ -28,7 +29,7 @@ jobs:
         API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
       with:
         source_file: 'out/dataset.json'
-        destination_repo: 'geo-conf/geo-dataset'
+        destination_repo: 'geo-conf/geo-dataset-uist'
         destination_folder: ''
         user_email: 'andrea@kaist.ac.kr'
         user_name: 'makinteract'
@@ -40,7 +41,7 @@ jobs:
         API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
       with:
         source_file: 'json'
-        destination_repo: 'geo-conf/geo-dataset'
+        destination_repo: 'geo-conf/geo-dataset-uist'
         destination_folder: 'raw'
         user_email: 'andrea@kaist.ac.kr'
         user_name: 'makinteract'

@@ -2248,5 +2248,400 @@
         "country": "USA"
       }
     ]
+  },
+  {
+    "proceedings": "uist21",
+    "people": [
+      {
+        "name": "Aakar Gupta",
+        "affiliation": "Facebook Reality Labs",
+        "country": "USA"
+      },
+      {
+        "name": "Ailie Fraser",
+        "affiliation": "Adobe Research",
+        "country": "USA"
+      },
+      {
+        "name": "Alanson Sample",
+        "affiliation": "University of Michigan",
+        "country": "USA"
+      },
+      {
+        "name": "Alex Williams",
+        "affiliation": "University of Tennessee Knoxville",
+        "country": "USA"
+      },
+      {
+        "name": "Alexandra Ion",
+        "affiliation": "Carnegie Mellon University",
+        "country": "USA"
+      },
+      {
+        "name": "Amanda Swearngin",
+        "affiliation": "Apple",
+        "country": "USA"
+      },
+      {
+        "name": "Amy Pavel",
+        "affiliation": "Carnegie Mellon University / Apple",
+        "country": "USA"
+      },
+      {
+        "name": "Andrea Bunt",
+        "affiliation": "University of Manitoba",
+        "country": "Canada"
+      },
+      {
+        "name": "Andreas Bulling",
+        "affiliation": "University of Stuttgart",
+        "country": "Germany"
+      },
+      {
+        "name": "Andrew Head",
+        "affiliation": "UC Berkeley",
+        "country": "USA"
+      },
+      {
+        "name": "Andy Wilson",
+        "affiliation": "Microsoft Research",
+        "country": "USA"
+      },
+      {
+        "name": "Anhong Guo",
+        "affiliation": "University of Michigan",
+        "country": "USA"
+      },
+      {
+        "name": "Anne Spencer Ross",
+        "affiliation": "University of Washington & Bucknell University",
+        "country": "USA"
+      },
+      {
+        "name": "Bjoern Hartmann",
+        "affiliation": "UC Berkeley",
+        "country": "USA"
+      },
+      {
+        "name": "Brian A. Smith",
+        "affiliation": "Columbia University",
+        "country": "USA"
+      },
+      {
+        "name": "Carrie Cai",
+        "affiliation": "Google Research",
+        "country": "USA"
+      },
+      {
+        "name": "Cesar Torres",
+        "affiliation": "University of Texas at Arlington",
+        "country": "USA"
+      },
+      {
+        "name": "Christian Holz",
+        "affiliation": "ETH Zurich",
+        "country": "Switzerland"
+      },
+      {
+        "name": "Cindy Hsin-Liu Kao",
+        "affiliation": "Cornell University",
+        "country": "USA"
+      },
+      {
+        "name": "Clemens Nylandsted Klokmose",
+        "affiliation": "Aarhus University",
+        "country": "Denmark"
+      },
+      {
+        "name": "Daniel Leithinger",
+        "affiliation": "University of Colorado Boulder",
+        "country": "USA"
+      },
+      {
+        "name": "Daniel Vogel",
+        "affiliation": "University of Waterloo",
+        "country": "Canada"
+      },
+      {
+        "name": "David Ledo",
+        "affiliation": "Autodesk Research",
+        "country": "Canada"
+      },
+      {
+        "name": "David Lindlbauer",
+        "affiliation": "Carnegie Mellon University",
+        "country": "USA"
+      },
+      {
+        "name": "Edward Wang",
+        "affiliation": "UCSD",
+        "country": "USA"
+      },
+      {
+        "name": "Elena Glassman",
+        "affiliation": "Harvard University",
+        "country": "USA"
+      },
+      {
+        "name": "Emily Whiting",
+        "affiliation": "Boston University",
+        "country": "USA"
+      },
+      {
+        "name": "Enrico Rukzio",
+        "affiliation": "University of Ulm",
+        "country": "Germany"
+      },
+      {
+        "name": "Eric Paulos",
+        "affiliation": "UC Berkeley",
+        "country": "USA"
+      },
+      {
+        "name": "Fraser Anderson",
+        "affiliation": "Autodesk Research",
+        "country": "Canada"
+      },
+      {
+        "name": "Haijun Xia",
+        "affiliation": "University of California",
+        "country": "San Diego"
+      },
+      {
+        "name": "Hari Subramonyam",
+        "affiliation": "University of Michigan",
+        "country": "USA"
+      },
+      {
+        "name": "Hasti Seifi",
+        "affiliation": "University of Copenhagen",
+        "country": "Denmark"
+      },
+      {
+        "name": "Jan Gugenheimer",
+        "affiliation": "Telecom Paris (IP-Paris)",
+        "country": "France"
+      },
+      {
+        "name": "Jane E",
+        "affiliation": "UCSD",
+        "country": "USA"
+      },
+      {
+        "name": "Jeeeun Kim",
+        "affiliation": "Texas A&M University",
+        "country": "USA"
+      },
+      {
+        "name": "Jeffrey P. Bigham",
+        "affiliation": "Apple / Carnegie Mellon University",
+        "country": "USA"
+      },
+      {
+        "name": "Jo Vermeulen",
+        "affiliation": "Autodesk Research",
+        "country": "Canada"
+      },
+      {
+        "name": "Jorg Muller",
+        "affiliation": "University of Bayreuth",
+        "country": "Germany"
+      },
+      {
+        "name": "Jun Gong",
+        "affiliation": "Apple",
+        "country": "USA"
+      },
+      {
+        "name": "Justin Matejka",
+        "affiliation": "Autodesk Research",
+        "country": "Canada"
+      },
+      {
+        "name": "Karan Ahuja",
+        "affiliation": "Carnegie Mellon University",
+        "country": "USA"
+      },
+      {
+        "name": "Kenneth Huang",
+        "affiliation": "Pennsylvania State University",
+        "country": "USA"
+      },
+      {
+        "name": "Mark McGill",
+        "affiliation": "University of Glasgow",
+        "country": "UK"
+      },
+      {
+        "name": "Mary Beth Kery",
+        "affiliation": "Carnegie Mellon University",
+        "country": "USA"
+      },
+      {
+        "name": "Mayank Goel",
+        "affiliation": "Carnegie Mellon University",
+        "country": "USA"
+      },
+      {
+        "name": "Megan Hofmann",
+        "affiliation": "Carnegie Mellon University",
+        "country": "USA"
+      },
+      {
+        "name": "Michael Wessely",
+        "affiliation": "MIT CSAIL",
+        "country": "USA"
+      },
+      {
+        "name": "Mike Chen",
+        "affiliation": "National Taiwan University",
+        "country": "Taiwan"
+      },
+      {
+        "name": "Minsuk Chang",
+        "affiliation": "Naver AI Lab",
+        "country": "Korea"
+      },
+      {
+        "name": "Misha Sra",
+        "affiliation": "UCSB",
+        "country": "USA"
+      },
+      {
+        "name": "Nathalie Henry Riche",
+        "affiliation": "Microsoft Research",
+        "country": "USA"
+      },
+      {
+        "name": "Nicolai Marquardt",
+        "affiliation": "University College London",
+        "country": "UK"
+      },
+      {
+        "name": "Nikola Banovic",
+        "affiliation": "University of Michigan",
+        "country": "USA"
+      },
+      {
+        "name": "Nora S Willett",
+        "affiliation": "Pixar Animation Studios",
+        "country": "USA"
+      },
+      {
+        "name": "Parmit Chilana",
+        "affiliation": "Simon Fraser University",
+        "country": "Canada"
+      },
+      {
+        "name": "Pedro Lopes",
+        "affiliation": "University of Chicago",
+        "country": "USA"
+      },
+      {
+        "name": "Raf Ramakers",
+        "affiliation": "Hasselt University",
+        "country": "Belgium"
+      },
+      {
+        "name": "Rajan Vaish",
+        "affiliation": "Snap Research",
+        "country": "USA"
+      },
+      {
+        "name": "Ranjay Krishna",
+        "affiliation": "Stanford University",
+        "country": "USA"
+      },
+      {
+        "name": "Robert Xiao",
+        "affiliation": "University of British Columbia",
+        "country": "Canada"
+      },
+      {
+        "name": "Ryo Suzuki",
+        "affiliation": "University of Calgary",
+        "country": "Canada"
+      },
+      {
+        "name": "Sean Follmer",
+        "affiliation": "Stanford University",
+        "country": "USA"
+      },
+      {
+        "name": "Stephen DiVerdi",
+        "affiliation": "Adobe Research",
+        "country": "USA"
+      },
+      {
+        "name": "Teddy Seyed",
+        "affiliation": "Microsoft Research",
+        "country": "USA"
+      },
+      {
+        "name": "Thijs Roumen",
+        "affiliation": "Hasso Plattner Institute",
+        "country": "Germany"
+      },
+      {
+        "name": "Toby Jia-Jun Li",
+        "affiliation": "University of Notre Dame",
+        "country": "USA"
+      },
+      {
+        "name": "Valkyrie Savage",
+        "affiliation": "Independent",
+        "country": "Denmark"
+      },
+      {
+        "name": "Vidya Setlur",
+        "affiliation": "Tableau Research",
+        "country": "USA"
+      },
+      {
+        "name": "Wilmot Li",
+        "affiliation": "Adobe Research",
+        "country": "USA"
+      },
+      {
+        "name": "Wolfgang Stuerzlinger",
+        "affiliation": "SIAT, Simon Fraser University",
+        "country": "Canada"
+      },
+      {
+        "name": "Xiang 'Anthony' Chen",
+        "affiliation": "UCLA",
+        "country": "USA"
+      },
+      {
+        "name": "Xing-Dong Yang",
+        "affiliation": "Dartmouth College",
+        "country": "USA"
+      },
+      {
+        "name": "Yang Li",
+        "affiliation": "Google Research",
+        "country": "USA"
+      },
+      {
+        "name": "Yang Zhang",
+        "affiliation": "UCLA / Apple",
+        "country": "USA"
+      },
+      {
+        "name": "Yuhang Zhao",
+        "affiliation": "University of Wisconsin-Madison",
+        "country": "USA"
+      },
+      {
+        "name": "Yukang Yan",
+        "affiliation": "Tsinghua University",
+        "country": "China"
+      },
+      {
+        "name": "Zoya Bylinskii",
+        "affiliation": "Adobe Inc.",
+        "country": "USA"
+      }
+    ]
   }
 ]

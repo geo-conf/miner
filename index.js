@@ -11,7 +11,7 @@ const dataCommittees = require('./json/committees_uist.json');
 
 const outputFile = path.join('out', 'dataset.json');
 const startYear = 10;
-const endYear = 20;
+const endYear = 21;
 
 // HELPERS
 

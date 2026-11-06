@@ -11,7 +11,7 @@ const dataCommittees = require('./json/committees_uist.json');
 
 const outputFile = path.join('out', 'dataset.json');
 const startYear = 10;
-const endYear = 21;
+const endYear = 25;
 
 // HELPERS
 
@@ -39,7 +39,7 @@ function getContinentList(data) {
 // COLLABORATIONS
 
 function getCollaborations(papers) {
-  const countryList = papers.map(({ country }) => country);
+  const countryList = papers.map(({ country }) => Array.isArray(country) ? [...new Set(country)] : country);
 
   const intlCollaborations = countryList.filter((l) => l.length > 1).length;
   let intcontinentCollaborations = 0;
@@ -99,6 +99,7 @@ function countrinize(countryName) {
     case 'rebublic of korea': country = 'korea'; break;
     case 'republic of': country = 'korea'; break;
     case 'san diego': country = 'united states'; break;
+    case 'scotland': country = 'united kingdom'; break;
     case 'simon fraser university': country = 'canada'; break;
     case 'simon frasier university': country = 'canada'; break;
     case 'south korea': country = 'korea'; break;
@@ -123,18 +124,19 @@ function countrinize(countryName) {
     case 'zurich': country = 'switzerland'; break;
     default: country = inputCountry; // no changes, keep the country name
   }
-
   return countrynames.getCode(country);
 }
 
 // get countries and normalize the data and return them in a single list
 function getCountryListFlat(data) {
-  let countryList = data.map(({ country }) => country);
+  // filter out repeated country entries for data from 2022
+  let countryList = data.map(({ country }) => Array.isArray(country) ? [...new Set(country)] : country);
   // if it is a list of lists, reduce to a single list
   if (typeof countryList[0] === 'object') {
     countryList = countryList.reduce((p, e) => [...p, ...e], []);
   }
   // make sure the countries are valid and return them
+  // console.log(countryList.filter(c => c == "Taiwan"));
   return countryList.map((c) => countrinize(c));
 }
 
